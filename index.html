@@ -280,7 +280,7 @@
 
             currentQ.options.forEach((optionText) => {
                 const optionButton = document.createElement('button');
-                optionButton.className = 'option-button w-full p-4 bg-gray-100 rounded-xl font-medium text-gray-700 shadow-sm border border-gray-200';
+                optionButton.className = 'option-button w-full p-4 bg-gray-100 rounded-xl font-medium text-gray-700 shadow-sm border border-gray-200 text-sm md:text-base;';
                 optionButton.setAttribute('data-option', optionText);
                 optionButton.innerHTML = `
                     <span class="flex-1">${optionText}</span>
